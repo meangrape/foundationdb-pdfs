@@ -1,10 +1,15 @@
 FoundationDB PDFs
 =================
 
-This is the content of the FoundationDB GitHub wiki converted to PDFs. The intent is to provide the ability to easily
-annotate documents and use more devices to read the docs. (I did this because I wanted to read them on my remarkable.)
+This is the content of the [FoundationDB GitHub
+wiki](https://github.com/apple/foundationdb/wiki/Documentation-Blitz-Homepage) converted to PDFs. The intent is to provide the ability easily
+annotatible documents and support a better reading experience on devices other than web browsers. (I did this because I wanted to read them on my remarkable.)
 This is a naive conversion with `pandoc` so there are probably small problems here or there.
 
+
+
+FoundationDB
+============
 
 FoundationDB is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. Users interact with the database using API language binding.
 
